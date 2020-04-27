@@ -36,6 +36,11 @@
             <type>maven-plugin</type>
         </dependency>
     </dependencies>
+         node{
+    stage("test"){
+        bat "ipconfig"
+    }
+
 
     <build>
         <finalName>${project.artifactId}</finalName>
