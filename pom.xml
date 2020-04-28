@@ -36,11 +36,7 @@
             <type>maven-plugin</type>
         </dependency>
     </dependencies>
-       <node>         
-         node{
-    stage("test"){
-        bat "ipconfig"
-                </node>
+      
     }
 
 
